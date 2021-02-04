@@ -1,0 +1,93 @@
+/* .paragraf {
+    color: red;
+    font-size: 25px;
+
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#8B008B;
+   
+}
+
+.ind {
+    text-align: center;
+    color: white;
+}
+
+.cen {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cen > div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.inputt {
+    width: 200px;
+    height: 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #0d6efd;
+}
+
+.img {
+    margin-top: 40px;
+}
+.img > img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.footer{
+   margin-top: 99%;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+@media(max-width:966px) {
+    .btn {
+        padding: 5px;
+        height: 35px;
+        margin-top: 25px;
+    }
+    .cen > div {
+        align-items: center;
+        justify-content: center;
+}
+.img > img{
+    margin-top: 25px;
+    width: 300px;
+}
+.footer{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+}
