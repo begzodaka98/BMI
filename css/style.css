@@ -7,9 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/pexels-rok-romih-4175151.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#8B008B;
 }
 
 .ind {
