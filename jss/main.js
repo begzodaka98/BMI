@@ -46,5 +46,5 @@ function calculate() {
 
     let value1 = Number(num1.value)
     let value2 = Number(num2.value)
-    result.innerHTML = value2 / (value1 * 2);
+    result.innerHTML = value2 / (value1 * value1);
 }
